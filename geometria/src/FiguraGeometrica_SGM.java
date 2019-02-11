@@ -20,4 +20,7 @@ public abstract class FiguraGeometrica_SGM {
 		this.tipoFigura = tipoFigura;
 	}
 
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
 }
